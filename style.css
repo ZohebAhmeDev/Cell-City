@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+.carousel-item{
+    height: 32rem;
+    background: #FDDA0D;
+    color: gray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+p {
+  inline-size: 320px;
+  overflow-wrap: break-word;
+  font-size: 22px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#icon-row{
+    position: relative;
+    grid-column: 2;
+}
+
+/*
+.col-sm-2{
+    height: 12vh;
+}
+
+.icon-line{
+    grid-row: 2;
+    height: 12vh;
+   width: 12vh;
+}
+*/
+.material-symbols-outlined{
+    font-size: 4rem;
+}
+
+#main-item{
+    position: relative;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transition-timing-function: ease-out;
+    transition: 1s;
+}
+
+#third {
+  position: relative;
+  background-color: #FDDA0D;
+}
+
+#forth {
+    position: relative;
+}
+
+.tablet {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.sam-tab{
+    position: relative;
+}
+
+#team {
+    position: relative;
+    bottom: red;
+}
+
+#umer{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#bottom-info{
+    position: relative;
+    color: #fff;
+    height: 30vh;
+}
+
+#footer-col{
+    margin-top: 50px;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#footer {
+    height: 45vh;
+}
